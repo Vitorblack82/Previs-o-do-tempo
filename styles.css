@@ -1,0 +1,99 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+
+
+}
+
+body {
+    background-image: url(/imag/wallpaperbetter.com_1920x1080.jpg);
+    justify-content: center;
+    /*centraliza os itens do body*/
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+
+
+
+}
+
+.container1 {
+    margin-top: 300px;
+    background-color: rgba(6, 6, 19, 0.863);
+    color: white;
+    width: 95%;
+    max-width: 500px;
+    height: 400px;
+    padding: 25px;
+    border-radius: 25px;
+
+
+
+
+}
+
+input {
+    border-radius: 25px;
+    background-color: rgba(218, 218, 226, 0.11);
+    color: white;
+    height: 50px;
+    width:calc(100% - 100px);
+    cursor: pointer;
+    font-size: 20px;
+    padding-left: 10px;
+    outline: none;
+    margin-bottom: 30px;
+
+}
+
+button {
+    float: right;
+    /* Move o item todo para direita*/
+    border-radius: 60px;
+    background-color: rgba(218, 218, 226, 0.11);
+    color: white;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-bottom: 30px;
+
+
+}
+
+::-webkit-input-placeholder {
+    color: white(36, 34, 33, 0.014)
+}
+
+
+
+.text-principal {
+    font-size: 30px;
+
+}
+
+.temperatura {
+    font-size: 30px;
+}
+
+.tempo {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+
+
+.tipoDeAr {
+    font-size: 20px;
+    text-transform: capitalize;
+   
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+    
+}
